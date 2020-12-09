@@ -3,7 +3,6 @@
 
 int main() {
 	std::vector<int> myVec = { 7, 9, 1, 7, 8, 0, 9, 1, 8 };
-
 	int counter = 0;
 	for (std::vector<int>::iterator iterX = myVec.begin(); iterX != myVec.end(); ++iterX) {
 		for (std::vector<int>::iterator iterY = myVec.begin(); iterY != myVec.end(); ++iterY) {
